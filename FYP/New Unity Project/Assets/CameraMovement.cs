@@ -23,7 +23,11 @@ public class CameraMovement : MonoBehaviour {
         //  rotationX = Mathf.Clamp(rotationX, minX  , maxX);
           rotationY += Input.GetAxis ("Mouse Y") * sensY * Time.deltaTime;
 			rotationY = Mathf.Clamp (rotationY, minY, maxY);
-			transform.localEulerAngles = new Vector3 (-rotationY, rotationX, 0);
+  //      rotationX += Input.GetAxis ("Horizontal") * sensX * Time.deltaTime;
+  //      //  rotationX = Mathf.Clamp(rotationX, minX  , maxX);
+  //        rotationY += Input.GetAxis ("Vertical") * sensY * Time.deltaTime;
+		//	rotationY = Mathf.Clamp (rotationY, minY, maxY);
+		//	transform.localEulerAngles = new Vector3 (-rotationY, rotationX, 0);
 		//}
 	}
 }
