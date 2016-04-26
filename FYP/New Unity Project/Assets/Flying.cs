@@ -10,18 +10,17 @@ public class Flying : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
         float transAmount = speed * Time.deltaTime;
         float rotateAmount = rotateSpeed * Time.deltaTime;
         if (Input.GetKey("down"))
         {
             transform.Rotate(rotateAmount, 0, 0);
-
         }
         if (Input.GetKey("up"))
         {
             transform.Rotate(-rotateAmount, 0, 0);
         }
+
         if (Input.GetKey("z"))
         {
             transform.Rotate(0, -rotateAmount, 0);
@@ -48,11 +47,9 @@ public class Flying : MonoBehaviour {
 
         if (Input.GetKey("q"))
         {
-
+        
             transform.Translate(0, 0, -(transAmount * 2));
         }
-
-
     }
 }
 
