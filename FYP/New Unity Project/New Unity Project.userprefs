@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CameraMovement.cs">
+    <Files>
+      <File FileName="Assets\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" Line="8" Column="6" />
+      <File FileName="Assets\Destroy.cs" Line="8" Column="2" />
+      <File FileName="Assets\takeoff.cs" Line="8" Column="22" />
+      <File FileName="Assets\Flying.cs" Line="11" Column="36" />
+      <File FileName="Assets\CameraMovement.cs" Line="33" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
